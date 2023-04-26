@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.linha-form {
+    text-align: center;
+    margin-top: 250px;
+    color: #FFFFFF;
+}
+
+input {
+    border-radius: 8px;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 14px;
+}
+
+body {
+    background-color: rgb(18, 21, 113);
+}
+
+input:hover {
+    background-color: rgb(104, 158, 196);
+}
+
+tema {
+    text-align: center;
+    margin-top: 10px;
+    font-family: cambria;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.botao {
+    width: 333px;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #1e216b;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+botao:hover {
+    background-color: rgb(104, 158, 196);
+}
+
+.mensagem-sucesso {
+    background-color: rgb(7, 161, 7);
+}
+
+.mensagem-erro {
+    background-color: rgb(186, 19, 19);
+}
+
+.rodape {
+    color: #FFFFFF;
+    padding: 23px;
+    background-color: rgb(194, 59, 59);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 400;
+    margin-top: 152px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 65px;
+
+}
